@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>art</title>  
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        </head>
+    <style>
+        body {background-color: #8E24AA; padding: 0px;margin: 0px;}
+        #header {
+            background-color: #00BCD4;
+            color: azure;
+            text-align: center;
+        }
+        .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+            background-color: aliceblue;
+        }
+        .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 80%;
+      margin: auto;
+  }
+    </style>
+    <body >
+        <div id = "header">
+        <h1 style="margin-top:0px;
+                   margin-bottom:0px;">WELCOME TO WORLD OF ART</h1>
+        </div>
+   <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="final.html">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">PAINTING <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="oil.html">Oil</a></li>
+            <li><a href="acrylic.html">Acrylic</a></li>
+            <li><a href="water.html">Water-color</a></li>
+            <li><a href="digital.html">Digital</a></li>
+            <li><a href="airbrush.html">Airbrush</a></li> 
+          </ul>
+        </li>
+        <li><a href="secpage.html">Sketches</a></li>
+        <li><a href="submit.html">Submit</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<h2>SUBMIT YOUR WORK</h2>
+<form action="">
+
+Name:
+<input type="text" name="name" size="30"/>
+Address:
+<input type="text" address="address" size="30"/>
+
+Contact number:
+<input type="text" contact="contact" size="10"/>
+<p>Style</p>
+<p>
+<select name="style">
+<option>Acrylic Painting</option>
+<option>Airbrush Painting</option>
+<option>Digital Painting</option>
+<option>water-color Painting</option>
+<option>Oil Painting</option>
+<option>sketch</option>
+</select>
+</p>
+
+
+title of your painting/sketch
+<input type="text" title="title" size="20"/>
+<p><input type="submit" value="SUBMIT"/>
+<input type="reset" value="RESET"/>
+</p>
+</form>
+</body>
+</html>
